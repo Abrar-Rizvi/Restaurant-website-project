@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faUser, faArrowRight, faPhone,faFireFlameCurved } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import {  faFireFlameCurved } from '@fortawesome/free-solid-svg-icons';
+// import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -26,7 +26,7 @@ export default function Card() {
     return (
         // This is main container which contains all cards
         <div className=" relative text-white bg-gradient-to-r from-green-600 to-gray-500 w-screen  min-h-4  flex flex-col items-center justify-center mt-10 mb-10  px-5 py-5 md:mx-auto    md:w-5/6">
-            <div className='flex justify-start w-full border mb-5 '>
+            <div className='flex justify-start items-center w-full border mb-5 '>
                 <FontAwesomeIcon icon={faFireFlameCurved} className='w-5 mr-1' />
                 <h1 className='text-2xl font-bold'>Popular Items</h1>
             </div >
