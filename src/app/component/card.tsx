@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faArrowRight, faPhone, faFaceB, faFireFlameCurved } from '@fortawesome/free-solid-svg-icons';
+import {  faUser, faArrowRight, faPhone,faFireFlameCurved } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 

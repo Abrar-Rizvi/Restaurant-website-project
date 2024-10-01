@@ -1,7 +1,7 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faHome, faUser, faArrowRight} from '@fortawesome/free-solid-svg-icons';
 import Card from './component/card';
-import Footer from './component/Footer';
+
 import Header from './component/Header';
 // import {faTwitter} from '@fortawesome/free-brands-svg-icons';
 
@@ -13,7 +13,8 @@ import Header from './component/Header';
 </div> */}
 export default function Home() {
   return (
-    <div ><main>
+    <div >
+      <main>
 
 <Header />
 <Card />

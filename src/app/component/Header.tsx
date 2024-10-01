@@ -1,10 +1,10 @@
 "use client"
 
 
-import image from "next/image"
+// import image from "next/image"
 import Link from "next/link"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faArrowRight, faPhone, faFaceBook, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from "react";
 export default function Header() {
 
@@ -18,13 +18,9 @@ export default function Header() {
         { name: "Extras", href: "extras" },
 
     ]
-//  writing a function to toggle visibilty of navbar
 
-       const [visible, isVisible] = useState(false)
 
-       const toggleHumberger = () => {
-        isVisible(!visible)
-       }
+      
 
     //Header Funtion returns from here
     return (
@@ -50,7 +46,7 @@ export default function Header() {
                     })}
                 </ul>
                 </nav>
-                <FontAwesomeIcon icon={faBars} onClick={toggleHumberger}   className="w-5 text-white md:hidden" />
+                <FontAwesomeIcon icon={faBars}   className="w-5 text-white md:hidden" />
 
             </div>
             <div className="bg-black bg-opacity-70 rounded w-1/2 p-5 mx-auto mt-10 text-center animate-bounce ">

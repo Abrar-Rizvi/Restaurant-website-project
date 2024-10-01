@@ -1,4 +1,4 @@
-import Herocontact from "../component/contact/hero";
+// import Herocontact from "../component/contact/hero";
 import Herosecofcontact from "../component/contact/hero";
 import Header from "../component/Header";
 

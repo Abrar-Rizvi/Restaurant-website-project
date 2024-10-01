@@ -1,12 +1,11 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faArrowRight , faPhone, } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 import { faFacebook , faYoutube, faInstagram, faTiktok, faTwitter} from '@fortawesome/free-brands-svg-icons';
 // import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
-// import { faPhone } from '@fortawesome/free-solid-svg-icons';
-// import { faHome, faUser, faArrowRight} from '@fortawesome/free-regular-svg-icons';
+
 
 export default function Footer() {
     type Link = {

@@ -1,7 +1,7 @@
-import image from "next/image"
+// import image from "next/image"
 import Link from "next/link"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faArrowRight, faPhone, faFaceBook, faBars } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faHome, faUser, faArrowRight, faPhone, faFaceBook, faBars } from '@fortawesome/free-solid-svg-icons';
 
 
 

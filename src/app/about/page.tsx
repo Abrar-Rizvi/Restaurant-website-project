@@ -1,6 +1,6 @@
 import Hero from "../component/about/herosection";
 import Header from "../component/Header";
-import Navbar from "../component/navbar";
+// import Navbar from "../component/navbar";
 
 export default function About(){
     return(
