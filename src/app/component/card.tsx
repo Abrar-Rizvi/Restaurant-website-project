@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFireFlameCurved } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image';
 
 
 
@@ -41,7 +42,7 @@ export default function Card() {
 
                         {/* This div contains only image */}
                         <div className="h-[300px] flex flex-col justify-between  ">
-                            <img className=" w-full h-full object-cover  " src={item.href} alt="biryani pic" />
+                            <Image className=" w-full h-full object-cover  " src={item.href} alt="biryani pic" width={500} height={500} />
 
                         </div>
                         {/* This div contains item name and price */}

@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 interface Name {
     name: string
 }
@@ -24,8 +24,8 @@ export default function Hero({ name }: Name) {
                 </div>
 
                 {/* right div for image */}
-                <div className=" bg-blue-500 w-full h-[200px] md:min-w-[400px] md:h-[400px]">
-                    <img className="w-full h-full object-cover" src="/images/bir.jpg" alt="" />
+                <div className="  w-full h-[200px] md:min-w-[400px] md:h-[400px]">
+                    <Image className="w-full h-full object-cover" src="/images/bir.jpg" alt="pic" width={500} height={500} />
                 </div>
             </div>
         </div>

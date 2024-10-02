@@ -2,6 +2,7 @@
 
 
 // import image from "next/image"
+import Image from "next/image";
 import Link from "next/link"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -32,7 +33,8 @@ export default function Header() {
                 <div className="w-[70px] h-[70px] rounded-full md:w-[100px] md:h-[100px]">
                     {/* Image has been set to div */}
 
-                    <img className="w-full h-full rounded-full" src="/images/matka.jpg" alt="" />
+                    <Image className="w-full h-full rounded-full" src="/images/matka.jpg" alt="pic" width={500} height={500}/>
+                
                 </div>
 
                 {/* This is navbar */}
