@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faArrowRight, faGreaterThan } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faHome, faUser, faArrowRight, faGreaterThan } from '@fortawesome/free-solid-svg-icons';
 
 function links() {
     type Links = {

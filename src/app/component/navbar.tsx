@@ -5,7 +5,7 @@ import Link from "next/link"
 
 
 
-export default function Navbar(){
+export default function Navbar() {
 
     const items = [
         { name: "Deals", href: "#" },
@@ -17,15 +17,15 @@ export default function Navbar(){
         { name: "Extras", href: "#" },
 
     ]
-    return(
+    return (
         <nav className="hidden md:block ">
-        <ul className=" flex justify-center space-x-6">
-            {items.map((item, index) => {
-                return <li key={index} className="">
-                    <Link href={item.href} className="border border-b-green-50 rounded-sm p-1 cursor-pointer text-white font-bold text-xl hover:text-yellow-100">{item.name}</Link>
-                </li>
-            })}
-        </ul>
+            <ul className=" flex justify-center space-x-6">
+                {items.map((item, index) => {
+                    return <li key={index} className="">
+                        <Link href={item.href} className="border border-b-green-50 rounded-sm p-1 cursor-pointer text-white font-bold text-xl hover:text-yellow-100">{item.name}</Link>
+                    </li>
+                })}
+            </ul>
         </nav>
     )
 }

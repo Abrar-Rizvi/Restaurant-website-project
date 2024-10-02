@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faFireFlameCurved } from '@fortawesome/free-solid-svg-icons';
-// import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faFireFlameCurved } from '@fortawesome/free-solid-svg-icons';
+
 
 
 

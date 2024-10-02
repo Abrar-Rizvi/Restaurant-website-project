@@ -1,13 +1,13 @@
 import Hero from "../component/about/herosection";
 import Header from "../component/Header";
 
-export default function Deserts(){
-return(
-    <div>
-<Header />
-<Hero name=" Deserts" />
+export default function Deserts() {
+    return (
+        <div>
+            <Header />
+            <Hero name=" Deserts" />
 
 
-    </div>
-)
+        </div>
+    )
 }

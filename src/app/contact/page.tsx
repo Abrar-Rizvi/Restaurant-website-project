@@ -1,15 +1,15 @@
-// import Herocontact from "../component/contact/hero";
+
 import Herosecofcontact from "../component/contact/hero";
 import Header from "../component/Header";
 
-export default function Contact(){
-    return(
-      
-      <div>
+export default function Contact() {
+  return (
 
-<Header />
-<Herosecofcontact />
+    <div>
 
-      </div>
-    )
+      <Header />
+      <Herosecofcontact />
+
+    </div>
+  )
 }

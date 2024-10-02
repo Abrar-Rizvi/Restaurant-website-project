@@ -5,7 +5,7 @@
 import Link from "next/link"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { useState } from "react";
+
 export default function Header() {
 
     const items = [
@@ -20,7 +20,7 @@ export default function Header() {
     ]
 
 
-      
+
 
     //Header Funtion returns from here
     return (
@@ -38,15 +38,15 @@ export default function Header() {
                 {/* This is navbar */}
 
                 <nav className="hidden md:block ">
-                <ul className=" flex justify-center space-x-6">
-                    {items.map((item, index) => {
-                        return <li key={index} className="">
-                            <Link href={item.href} className="border border-b-green-50 rounded-sm p-1 cursor-pointer text-white font-bold text-xl hover:text-yellow-100">{item.name}</Link>
-                        </li>
-                    })}
-                </ul>
+                    <ul className=" flex justify-center space-x-6">
+                        {items.map((item, index) => {
+                            return <li key={index} className="">
+                                <Link href={item.href} className="border border-b-green-50 rounded-sm p-1 cursor-pointer text-white font-bold text-xl hover:text-yellow-100">{item.name}</Link>
+                            </li>
+                        })}
+                    </ul>
                 </nav>
-                <FontAwesomeIcon icon={faBars}   className="w-5 text-white md:hidden" />
+                <FontAwesomeIcon icon={faBars} className="w-5 text-white md:hidden" />
 
             </div>
             <div className="bg-black bg-opacity-70 rounded w-1/2 p-5 mx-auto mt-10 text-center animate-bounce ">
